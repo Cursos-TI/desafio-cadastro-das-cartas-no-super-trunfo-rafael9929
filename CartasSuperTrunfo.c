@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <stdio.h> 
+
+        //declaraçao das variaveis
 
 int main(){
       char estado[20];
@@ -9,69 +11,73 @@ int main(){
       float pib = 3;
       int turismo =4;
 
-              printf("CARTA - 01: \n");
-  printf("estado: \n");
-  scanf("%s", &estado);  
+             //cadastro de carta 01
 
-      printf("codigo da carta: \n");
-      scanf("%s", &codigo);
+              printf("CARTA - 01 \n");
+  
+         printf("estado: \n");
+         scanf("%s", &estado);  
+ 
+         printf("codigo da carta: \n");
+         scanf("%s", &codigo);
 
-printf("cidade: \n");
-scanf("%s", &cidade);
+         printf("cidade: \n");
+         scanf("%s", &cidade);
 
-      printf("população: \n");
-      scanf("%d", &populacao);
+         printf("população: \n");
+         scanf("%d", &populacao);
 
-      printf("Área em km²: \n");
-      scanf("%f", &area);
-
-      printf("PIB: \n");
-      scanf("%f", &pib);
-
-      printf("numero de pontos turísticos: \n");
-      scanf("%d", &turismo);
-
-              printf("CARTA - 02 \n");
-
-printf("estado: %s \n", estado);
-printf("codigo da carta: %s \n", codigo);
+         printf("Área em km²: \n");
+         scanf("%f", &area);
 
 
-printf("cidade: %s \n", cidade);
-printf("populaçao: %d \n ", populacao);
-     
-printf("Área em m²: %f \n", area);
-printf("PIB: %f \n " , pib);
+         printf("PIB: \n");
+         scanf("%f", &pib);
 
-printf("numero de pontos turísticos: %d \n",turismo);
+ printf("numero de pontos turísticos: \n");
+ scanf("%d", &turismo);
 
-             printf("CARTA - 01: \n");
+ printf("CARTA - 01 \n");
+ printf("estado: %s \n", estado);
 
-printf("estado: \n");
-scanf("%s", &estado);  
+ printf("codigo da carta: %s \n", codigo);
+ printf("cidade: %s \n", cidade);
 
-    printf("codigo da carta: \n");
-    scanf("%s", &codigo);
+ printf("populaçao: %d \n ", populacao);
+ printf("Área em m²: %f \n", area);
 
-printf("cidade: \n");
-scanf("%s", &cidade);
+ printf("PIB: %f \n " , pib);
+ printf("numero de pontos turísticos: %d \n",turismo);
 
-    printf("população: \n");
-    scanf("%d", &populacao);
-
-    printf("Área em km²: \n");
-    scanf("%f", &area);
-
-    printf("PIB: \n");
-    scanf("%f", &pib);
-
-    printf("numero de pontos turísticos: \n");
-    scanf("%d", &turismo);
+                 //cadastro carta 02
 
              printf("CARTA - 02 \n");
 
-printf("estado: %s \n", estado);
-printf("codigo da carta: %s \n", codigo);
+         printf("estado: \n");
+         scanf("%s", &estado);  
+
+         printf("codigo da carta: \n");
+         scanf("%s", &codigo);
+
+         printf("cidade: \n");
+         scanf("%s", &cidade);
+
+         printf("população: \n");
+         scanf("%d", &populacao);
+
+         printf("Área em km²: \n");
+         scanf("%f", &area);
+
+        printf("PIB: \n");
+        scanf("%f", &pib);
+
+         printf("numero de pontos turísticos: \n");
+         scanf("%d", &turismo);
+
+             printf("CARTA - 02 \n");
+
+ printf("estado: %s \n", estado);
+ printf("codigo da carta: %s \n", codigo);
 
 
 printf("cidade: %s \n", cidade);
