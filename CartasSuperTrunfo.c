@@ -36,7 +36,7 @@ int main(){
              //cadastro de carta 01
 
 
-              printf("CARTA - 01 \n");
+              printf("ADICIONE A CARTA - 01 \n");
   
          printf("estado: \n");
          scanf("%s", &estado);  
@@ -68,7 +68,7 @@ int main(){
  
           //saida de dados  
 
- printf("CARTA - 01 \n");
+ printf("CARTA - 01 \n\n");
  printf("estado: %s \n", estado);
 
  printf("codigo da carta: %s \n", codigo);
@@ -83,13 +83,13 @@ int main(){
  printf("densidade populacional:%.2f \n" ,densidade);
 printf("pib per capta;%.2f \n" , percapta);
  
-printf("super poder:%.2f \n" , suprpoder);
+printf("super poder:%.2f \n\n" , suprpoder);
  
                  //entrada de dados 
 
                  //cadastro carta 02
 
-             printf("CARTA - 02 \n");
+             printf("ADICIONE A CARTA - 02 \n\n");
 
          printf("estado: \n");
          scanf("%s", &estado2);  
@@ -120,7 +120,7 @@ printf("super poder:%.2f \n" , suprpoder);
 
                 //saida de dados  
 
-             printf("CARTA - 02 \n");
+             printf("CARTA - 02 \n\n");
 
  printf("estado: %s \n", estado2);
  printf("codigo da carta: %s \n", codigo2);
@@ -137,31 +137,28 @@ printf("numero de pontos turísticos: %.2d \n",turismo2);
 printf("densidade populacional:%.2f \n" ,densidade2);
 printf("pib per capta:%.2f \n" , percapta2);
 
-printf("super poder:%.2f \n" , suprpoder2);
+printf("super poder:%.2f \n\n" , suprpoder2);
 
-printf("CADASTRADO ! \n");
+printf("CADASTRADO ! \n\n");
 
           //comparaçao das cartas 
-comparacaop =(populacao > populacao2);
-comparacaoa = (area > area2);
-comparacaopi = (pib > pib2);
-comparacaot = (turismo > turismo2);
-comparacaod =(densidade > densidade2);
-comparacaope = (percapta > percapta2);
-comparacaos = (suprpoder > suprpoder2);
-         
 
-              //impreçao das comparaçao das cartas 
 
-          printf("COMPARAÇAO DE CARTAS\n");
+          printf("COMPARAÇAO DE CARTAS\n\n");
           
-          printf("populaçao:%.2f \n" , comparacaop);
-          printf("area:%.2f \n" , comparacaoa);
-          printf("pib:%.2f \n" , comparacaopi);
-          printf("pontos turisticos:%.2f \n" , comparacaot);
-          printf("densidade populacional:%.2f \n" , comparacaod);
-          printf("pib per capta:%.2f \n" , comparacaope);
-          printf("super poder:%.2f \n" , comparacaos);
+          printf("Atributo: População\n\n");
 
+          printf("carta-1:%s:%u \n", cidade, populacao);
+          printf("carta-2:%s:%u \n", cidade2, populacao2);
+
+          if (populacao > populacao2){
+            printf("Resultado: Carta 1 (%s) venceu!\n", cidade);
+          } else {
+            printf ("Resultado: Carta 2 (%s) venceu!\n",cidade2);
+        }
+
+
+
+         
 return 0; 
 } 
